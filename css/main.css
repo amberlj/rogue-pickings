@@ -50,34 +50,36 @@ header {
 	justify-content:center;
 	align-items:center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
-	
-	padding: 38px 0;
+	width:100%;
+	padding: 20px 20px 20px 20px;
+	border-bottom:3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
-	
+	padding: 10px;
+	width:100%;
 	
 }
 header nav ul {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-flow: row wrap;
 	padding: 0;
+	margin: 0;
+	
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: flex;
+	padding: 10px 0;
+	list-style:none;
+	
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -94,7 +96,7 @@ header nav ul li a{
 }
 
 .main-image {
-	height: 100%;
+	width: 100%;
 	
 }
 .main-image img {
@@ -103,7 +105,7 @@ header nav ul li a{
 }
 
 .main-title {
-	height: 100%;
+	width: 100%;
 	
 }
 .main-title h2 {
@@ -121,23 +123,9 @@ header nav ul li a{
 .section-two,
 .section-three {
 	width: 100%;
-	height:100%;
 	border-top: 1px solid #eee;
 }
 
-.section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-.section-three h3 {
-	padding: 10px 30px;
-}
 
 .menu {
 	list-style: none;
